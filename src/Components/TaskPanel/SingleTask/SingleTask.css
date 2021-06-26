@@ -1,0 +1,38 @@
+.singleTask_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 12px;
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.274);
+  margin: 8px 8px;
+  /* border-radius: 5px; */
+}
+
+.singleTaskContent {
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.taskTime h5 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.taskActions i {
+  cursor: pointer;
+  color: white;
+  background-color: #e67e22;
+  width: auto;
+  text-align: center;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 100px;
+}
+
+.taskActions i:hover {
+  background-color: #db6600;
+}

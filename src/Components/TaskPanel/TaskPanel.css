@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.taskPanel_main {
+  padding: 12px;
+}
+
+.o-btn {
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 30px;
+  height: 30px;
+  background-color: #e67e22;
+  font-size: small;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.o-btn.long {
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.o-btn.elastic {
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.o-btn span {
+  margin-left: 10px;
+}
+.o-btn:hover {
+  background-color: rgba(230, 125, 34, 0.815);
+}
+
+.c-aside__day .c-aside__num {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.c-aside__day {
+  font-size: 28px;
+  margin: 16px 10px;
+}
+.c-aside__day .c-aside__num {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.taskPanelContent {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 70vh;
+}
+
+.taskPanelContent::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.dayView_content {
+  height: 82vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 3em 10px repeat(7, 1fr);
+  grid-template-rows: repeat(24, 3em);
+}
+
+.dayView_title {
+  background: #e67e22;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  height: 48px;
+}
