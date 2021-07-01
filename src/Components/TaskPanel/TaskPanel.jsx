@@ -8,7 +8,9 @@ function TaskPanel({ setShowModal }) {
   const [{ currentDate, currentTasks }, dispatch] = useStateValue();
 
   const isEqualDates = (date1, date2) => {
-    return moment(date1).format("DD") == moment(date2).format("DD");
+    return (
+      moment(date1).format("YYYY-MM-D") == moment(date2).format("YYYY-MM-D")
+    );
   };
 
   return (

@@ -56,7 +56,8 @@ function DayView() {
           let found = false;
           currentTasks.forEach((task, index) => {
             if (
-              moment(task.task_date).format("DD") == moment().format("DD") &&
+              moment(task.task_date).format("YYYY-MM-DD") ==
+                moment().format("YYYY-MM-DD") &&
               moment(task.start_time, "hh:mm:ss").format("hh") < i + 1 &&
               moment(task.end_time, "hh:mm:ss").format("hh") >= i + 1
             ) {

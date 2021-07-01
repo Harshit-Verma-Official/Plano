@@ -79,10 +79,17 @@ function WeekView() {
         let weekDays = getWeekDays();
         if (currentTasks.length != 0) {
           currentTasks.forEach((task, index) => {
+            let tmonth = moment(task.task_date, "YYYY-MM-DD").format("M");
+            let currentMonth = moment().format("M");
             let tdate = moment(task.task_date).format("D");
             let stime = moment(task.start_time, "HH:mm:yy").format("HH");
             let etime = moment(task.end_time, "HH:mm:yy").format("HH");
-            if (tdate == weekDays[i] && j >= stime && j <= etime) {
+            if (
+              tmonth == currentMonth &&
+              tdate == weekDays[i] &&
+              j >= stime &&
+              j <= etime
+            ) {
               events.push(
                 <div
                   key={`${i}${index}${j}`}
