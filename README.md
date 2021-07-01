@@ -5,6 +5,8 @@ Take a peek : https://classroom-scheduler-d9d01.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+(/screenshots/Screenshot.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
