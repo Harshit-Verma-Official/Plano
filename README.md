@@ -1,11 +1,11 @@
 # Live Demo
 Take a peek : https://classroom-scheduler-d9d01.web.app/
 
+![Contribution guidelines for this project](screenshots/Screenshot.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-[Contribution guidelines for this project](screenshots/Screenshot.png)
 
 ## Available Scripts
 
